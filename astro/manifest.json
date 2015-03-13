@@ -1,0 +1,12 @@
+{
+    "name": "Astr",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "7",
+    "content_scripts": [
+        {
+            "matches": ["https://session.masteringastronomy.com/*"],
+            "js": ["content.js"]
+        }
+    ]
+}
